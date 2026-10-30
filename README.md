@@ -23,21 +23,21 @@
 - Jupyter Notebook
 
 ## 실행 방법
-`ash
+```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/mission02.ipynb
-`
+```
 
 > 데이터셋 또는 사전학습 모델이 외부에서 제공되는 경우, 실행 전에 노트북 또는 코드의 데이터 로드 설정을 확인해야 합니다.
 
 ## 폴더 구조
-`	ext
+```text
 notebooks/
   mission02.ipynb
 README.md
 requirements.txt
 .gitignore
-`
+```
 
 ## 학습 내용
 - 분석 전 데이터 정의와 결측치 처리 기준을 먼저 확인하는 습관
